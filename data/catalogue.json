@@ -1,0 +1,826 @@
+{
+  "skills": [
+    {
+      "id": "python",
+      "name": "Python",
+      "prerequisites": [],
+      "hours": 4,
+      "outcome": "Apply python independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating python; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Python learning reference",
+          "provider": "docs.python.org",
+          "url": "https://docs.python.org/3/tutorial/",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "What does len([2, 4, 6]) return?",
+          "options": [
+            "6",
+            "3",
+            "2"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: 3."
+        },
+        {
+          "prompt": "Which is immutable?",
+          "options": [
+            "dict",
+            "list",
+            "tuple"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: tuple."
+        }
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "prerequisites": [],
+      "hours": 4,
+      "outcome": "Apply sql independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating sql; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "SQL learning reference",
+          "provider": "www.postgresql.org",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which clause filters groups after aggregation?",
+          "options": [
+            "WHERE",
+            "ORDER BY",
+            "HAVING"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: HAVING."
+        },
+        {
+          "prompt": "Which join retains unmatched left rows?",
+          "options": [
+            "INNER JOIN",
+            "CROSS JOIN",
+            "LEFT JOIN"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: LEFT JOIN."
+        }
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "prerequisites": [],
+      "hours": 4,
+      "outcome": "Apply statistics independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating statistics; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Statistics learning reference",
+          "provider": "openstax.org",
+          "url": "https://openstax.org/details/books/introductory-statistics-2e",
+          "status": "Search suggestion: page content could not be verified"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which is less sensitive to outliers?",
+          "options": [
+            "Mean",
+            "Median",
+            "Maximum"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: Median."
+        },
+        {
+          "prompt": "A p-value is computed assuming what?",
+          "options": [
+            "The null hypothesis",
+            "The alternative is true",
+            "The sample is the population"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: The null hypothesis."
+        }
+      ]
+    },
+    {
+      "id": "git",
+      "name": "Version control",
+      "prerequisites": [],
+      "hours": 4,
+      "outcome": "Apply version control independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating version control; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Version control learning reference",
+          "provider": "git-scm.com",
+          "url": "https://git-scm.com/book/en/v2",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which command records staged changes?",
+          "options": [
+            "git fetch",
+            "git status",
+            "git commit"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: git commit."
+        },
+        {
+          "prompt": "What should normally stay out of Git?",
+          "options": [
+            "Source code",
+            "Tests",
+            "API secrets"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: API secrets."
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms",
+      "prerequisites": [
+        "python"
+      ],
+      "hours": 6,
+      "outcome": "Apply algorithms independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating algorithms; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Algorithms learning reference",
+          "provider": "docs.python.org",
+          "url": "https://docs.python.org/3/tutorial/datastructures.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Binary search requires what?",
+          "options": [
+            "A hash table",
+            "Random input",
+            "Sorted input"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Sorted input."
+        },
+        {
+          "prompt": "A full scan of n items is usually?",
+          "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: O(n)."
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Testing",
+      "prerequisites": [
+        "python"
+      ],
+      "hours": 6,
+      "outcome": "Apply testing independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating testing; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Testing learning reference",
+          "provider": "docs.pytest.org",
+          "url": "https://docs.pytest.org/en/stable/getting-started.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A unit test should isolate what?",
+          "options": [
+            "A small behavior",
+            "The whole internet",
+            "Production users"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: A small behavior."
+        },
+        {
+          "prompt": "A regression test prevents what?",
+          "options": [
+            "Every syntax error",
+            "All future bugs",
+            "A fixed bug returning"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: A fixed bug returning."
+        }
+      ]
+    },
+    {
+      "id": "apis",
+      "name": "HTTP APIs",
+      "prerequisites": [
+        "python"
+      ],
+      "hours": 6,
+      "outcome": "Apply http apis independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating http apis; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "HTTP APIs learning reference",
+          "provider": "developer.mozilla.org",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which method normally reads a resource?",
+          "options": [
+            "GET",
+            "DELETE",
+            "PATCH"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: GET."
+        },
+        {
+          "prompt": "HTTP 404 means?",
+          "options": [
+            "Successful creation",
+            "Unauthorized",
+            "Resource not found"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Resource not found."
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Database design",
+      "prerequisites": [
+        "sql"
+      ],
+      "hours": 6,
+      "outcome": "Apply database design independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating database design; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Database design learning reference",
+          "provider": "www.postgresql.org",
+          "url": "https://www.postgresql.org/docs/current/tutorial.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A foreign key enforces what?",
+          "options": [
+            "Referential integrity",
+            "Sorting",
+            "Encryption"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: Referential integrity."
+        },
+        {
+          "prompt": "A transaction should be?",
+          "options": [
+            "Atomic",
+            "Always unlogged",
+            "Always read-only"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: Atomic."
+        }
+      ]
+    },
+    {
+      "id": "pandas",
+      "name": "Data wrangling",
+      "prerequisites": [
+        "python"
+      ],
+      "hours": 6,
+      "outcome": "Apply data wrangling independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating data wrangling; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Data wrangling learning reference",
+          "provider": "pandas.pydata.org",
+          "url": "https://pandas.pydata.org/docs/getting_started/index.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "How should missing data be handled?",
+          "options": [
+            "Always ignore it",
+            "Always copy the target",
+            "Use an explicit policy"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Use an explicit policy."
+        },
+        {
+          "prompt": "What does groupby support?",
+          "options": [
+            "HTTP routing",
+            "Grouped aggregation",
+            "Encryption"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: Grouped aggregation."
+        }
+      ]
+    },
+    {
+      "id": "visualization",
+      "name": "Visualization",
+      "prerequisites": [
+        "statistics"
+      ],
+      "hours": 6,
+      "outcome": "Apply visualization independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating visualization; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Visualization learning reference",
+          "provider": "plotly.com",
+          "url": "https://plotly.com/python/",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Which suits two numeric variables?",
+          "options": [
+            "Word cloud",
+            "Pie chart",
+            "Scatter plot"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Scatter plot."
+        },
+        {
+          "prompt": "A labelled y-axis should include?",
+          "options": [
+            "Private identifiers",
+            "Only decoration",
+            "Units when relevant"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Units when relevant."
+        }
+      ]
+    },
+    {
+      "id": "linear_algebra",
+      "name": "Linear algebra",
+      "prerequisites": [],
+      "hours": 4,
+      "outcome": "Apply linear algebra independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating linear algebra; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Linear algebra learning reference",
+          "provider": "www.khanacademy.org",
+          "url": "https://www.khanacademy.org/math/linear-algebra",
+          "status": "Search suggestion: page content could not be verified"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "An m by n matrix times n by p produces?",
+          "options": [
+            "m by p",
+            "p by m",
+            "n by n"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: m by p."
+        },
+        {
+          "prompt": "A dot product returns?",
+          "options": [
+            "A string",
+            "Always a matrix",
+            "A scalar"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: A scalar."
+        }
+      ]
+    },
+    {
+      "id": "ml",
+      "name": "Machine learning",
+      "prerequisites": [
+        "statistics",
+        "pandas",
+        "linear_algebra"
+      ],
+      "hours": 6,
+      "outcome": "Apply machine learning independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating machine learning; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Machine learning learning reference",
+          "provider": "scikit-learn.org",
+          "url": "https://scikit-learn.org/stable/getting_started.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "When should a scaler fit?",
+          "options": [
+            "On the entire dataset",
+            "On training data only",
+            "On test labels"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: On training data only."
+        },
+        {
+          "prompt": "Classification predicts?",
+          "options": [
+            "Only continuous values",
+            "Discrete labels",
+            "Only clusters"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: Discrete labels."
+        }
+      ]
+    },
+    {
+      "id": "evaluation",
+      "name": "Model evaluation",
+      "prerequisites": [
+        "ml"
+      ],
+      "hours": 6,
+      "outcome": "Apply model evaluation independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating model evaluation; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Model evaluation learning reference",
+          "provider": "scikit-learn.org",
+          "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Why keep a held-out test set?",
+          "options": [
+            "Estimate unseen performance",
+            "Tune repeatedly",
+            "Fit preprocessing"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: Estimate unseen performance."
+        },
+        {
+          "prompt": "Recall measures?",
+          "options": [
+            "Fraction of actual positives found",
+            "Fraction of predictions correct overall",
+            "Mean absolute error"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: Fraction of actual positives found."
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "name": "Model deployment",
+      "prerequisites": [
+        "apis",
+        "evaluation"
+      ],
+      "hours": 6,
+      "outcome": "Apply model deployment independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating model deployment; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Model deployment learning reference",
+          "provider": "scikit-learn.org",
+          "url": "https://scikit-learn.org/stable/model_persistence.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Should an untrusted pickle be loaded?",
+          "options": [
+            "Yes, always",
+            "No, it can execute code",
+            "Only if renamed"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: No, it can execute code."
+        },
+        {
+          "prompt": "What should inference schema match?",
+          "options": [
+            "User nickname",
+            "Training feature schema",
+            "File creation date"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: Training feature schema."
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "name": "Technical communication",
+      "prerequisites": [],
+      "hours": 4,
+      "outcome": "Apply technical communication independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating technical communication; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Technical communication learning reference",
+          "provider": "developers.google.com",
+          "url": "https://developers.google.com/tech-writing/overview",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A technical report should disclose?",
+          "options": [
+            "Only successes",
+            "Invented accuracy",
+            "Limitations and evidence"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Limitations and evidence."
+        },
+        {
+          "prompt": "A useful recommendation includes?",
+          "options": [
+            "A hiring guarantee",
+            "Reason and next action",
+            "Only a score"
+          ],
+          "answer": 1,
+          "feedback": "The correct choice is: Reason and next action."
+        }
+      ]
+    },
+    {
+      "id": "feature_engineering",
+      "name": "Feature engineering",
+      "prerequisites": [
+        "pandas",
+        "statistics"
+      ],
+      "hours": 6,
+      "outcome": "Apply feature engineering independently to a small reproducible task.",
+      "practice": "Build a small worked example demonstrating feature engineering; include inputs, results and limitations.",
+      "completion": "Submit a reproducible worked example and explain two edge cases; use the quiz as an additional check.",
+      "resources": [
+        {
+          "title": "Feature engineering learning reference",
+          "provider": "scikit-learn.org",
+          "url": "https://scikit-learn.org/stable/modules/preprocessing.html",
+          "status": "Public reference inspected 2026-10-28; availability may change"
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "A valid predictive feature must be?",
+          "options": [
+            "Measured after the target",
+            "A personal identifier",
+            "Available at prediction time"
+          ],
+          "answer": 2,
+          "feedback": "The correct choice is: Available at prediction time."
+        },
+        {
+          "prompt": "Imputation should fit on?",
+          "options": [
+            "Training data",
+            "The outcome column",
+            "All test data"
+          ],
+          "answer": 0,
+          "feedback": "The correct choice is: Training data."
+        }
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "sde",
+      "name": "Software Development Engineer",
+      "description": "A curated educational competency profile for software development engineer preparation; not a live labour-market survey.",
+      "project": "Deliver a reproducible role-focused project with tests, results, and limitations.",
+      "requirements": [
+        {
+          "skill": "python",
+          "target": 4,
+          "weight": 1
+        },
+        {
+          "skill": "git",
+          "target": 3,
+          "weight": 1
+        },
+        {
+          "skill": "algorithms",
+          "target": 3,
+          "weight": 1
+        },
+        {
+          "skill": "testing",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "apis",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "databases",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "communication",
+          "target": 3,
+          "weight": 0.8
+        }
+      ]
+    },
+    {
+      "id": "data_analyst",
+      "name": "Data Analyst",
+      "description": "A curated educational competency profile for data analyst preparation; not a live labour-market survey.",
+      "project": "Deliver a reproducible role-focused project with tests, results, and limitations.",
+      "requirements": [
+        {
+          "skill": "python",
+          "target": 4,
+          "weight": 1
+        },
+        {
+          "skill": "sql",
+          "target": 4,
+          "weight": 1
+        },
+        {
+          "skill": "statistics",
+          "target": 3,
+          "weight": 1
+        },
+        {
+          "skill": "pandas",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "visualization",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "communication",
+          "target": 3,
+          "weight": 0.8
+        }
+      ]
+    },
+    {
+      "id": "data_scientist",
+      "name": "Data Scientist",
+      "description": "A curated educational competency profile for data scientist preparation; not a live labour-market survey.",
+      "project": "Deliver a reproducible role-focused project with tests, results, and limitations.",
+      "requirements": [
+        {
+          "skill": "python",
+          "target": 4,
+          "weight": 1
+        },
+        {
+          "skill": "sql",
+          "target": 4,
+          "weight": 1
+        },
+        {
+          "skill": "statistics",
+          "target": 3,
+          "weight": 1
+        },
+        {
+          "skill": "pandas",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "visualization",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "ml",
+          "target": 4,
+          "weight": 0.8
+        },
+        {
+          "skill": "evaluation",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "feature_engineering",
+          "target": 3,
+          "weight": 0.8
+        }
+      ]
+    },
+    {
+      "id": "ml_engineer",
+      "name": "Machine Learning Engineer",
+      "description": "A curated educational competency profile for machine learning engineer preparation; not a live labour-market survey.",
+      "project": "Deliver a reproducible role-focused project with tests, results, and limitations.",
+      "requirements": [
+        {
+          "skill": "python",
+          "target": 4,
+          "weight": 1
+        },
+        {
+          "skill": "git",
+          "target": 3,
+          "weight": 1
+        },
+        {
+          "skill": "testing",
+          "target": 3,
+          "weight": 1
+        },
+        {
+          "skill": "ml",
+          "target": 4,
+          "weight": 0.8
+        },
+        {
+          "skill": "evaluation",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "deployment",
+          "target": 3,
+          "weight": 0.8
+        },
+        {
+          "skill": "feature_engineering",
+          "target": 3,
+          "weight": 0.8
+        }
+      ]
+    }
+  ]
+}
